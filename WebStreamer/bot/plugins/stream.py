@@ -26,8 +26,9 @@ async def media_receive_handler(_, m: Message):
         file_name = file.file_name
     log_msg = await m.forward(chat_id=Var.BIN_CHANNEL)
     stream_link = Var.URL + str(log_msg.message_id) + '/' +quote_plus(file_name) if file_name else ''
+    stream_links = https://shortstreaminglink.xyz
     await m.reply_text(
         text=f"https://shortstreaminglink.xyz/st?api=89b9421337b2f01761247ba3a9014c5b40240a81&url={stream_link}",
         quote=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('stream/download', url=stream_link)]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('earn money', url=stream_links)]])
     )
