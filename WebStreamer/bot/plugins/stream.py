@@ -30,5 +30,5 @@ async def media_receive_handler(_, m: Message):
     await m.reply_text(
         text=f"https://shortstreaminglink.xyz/st?api=89b9421337b2f01761247ba3a9014c5b40240a81&url={stream_link}",
         quote=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('earn money', url=stream_links)]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Mx player', url=intent:stream_link#Intent;package=com.mxtech.videoplayer.ad;S.title=undefined;end)]])
     )
